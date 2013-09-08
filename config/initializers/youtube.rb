@@ -1,0 +1,1 @@
+YOUTUBE = YouTubeIt::Client.new
