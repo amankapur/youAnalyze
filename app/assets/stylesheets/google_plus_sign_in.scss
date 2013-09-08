@@ -1,0 +1,12 @@
+
+.google_plus_sign_in {
+  background-image: image-url('google_login.png');
+  background-repeat: no-repeat;
+  display: block;
+  width: 300px;
+  height: 50px;
+}
+.google_plus_sign_in:hover {
+
+  background-image: image-url('google_login_press.png');
+}

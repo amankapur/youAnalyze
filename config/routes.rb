@@ -1,5 +1,5 @@
 Youtube::Application.routes.draw do
-  devise_for :users, :controllers => { :omniauth_callbacks => "user" }
+  devise_for :users, :controllers => { :omniauth_callbacks => "application" }
 
   root to: "analytics#index"
 
